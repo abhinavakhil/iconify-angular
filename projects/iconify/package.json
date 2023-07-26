@@ -1,8 +1,8 @@
 {
-  "name": "@visurel/iconify-angular",
+  "name": "@ag/iconify-angular",
   "version": "16.0.0",
   "description": "Angular component for Iconify.",
-  "author": "",
+  "author": "ag",
   "repository": {
     "type": "git",
     "url": ""

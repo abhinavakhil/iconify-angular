@@ -6,11 +6,11 @@ Angular implementation of [Iconify](https://github.com/iconify/iconify), strongl
 
 If you are using NPM:
 
-`npm install @visurel/iconify-angular`
+`npm install @ag/iconify-angular`
 
 If you are using Yarn:
 
-`yarn add @visurel/iconify-angular`
+`yarn add @ag/iconify-angular`
 
 This package does not include icons. Icons are split into separate packages that available at NPM. See [Iconify-React](https://github.com/iconify/iconify-react#icon-packages).
 
@@ -19,15 +19,15 @@ This package does not include icons. Icons are split into separate packages that
 Assign the icon to an instance variable in the component:
 
 ```typescript
-import { Component } from '@angular/core';
-import home from '@iconify/icons-mdi/home';
-import groupAdd from '@iconify/icons-mdi/group-add';
-import bellSlash from '@iconify/icons-fa-solid/bell-slash';
+import { Component } from "@angular/core";
+import home from "@iconify/icons-mdi/home";
+import groupAdd from "@iconify/icons-mdi/group-add";
+import bellSlash from "@iconify/icons-fa-solid/bell-slash";
 
 @Component({
-  selector: 'ic-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "ic-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
   homeIcon = home;
@@ -60,7 +60,8 @@ Use it inside your template:
 ### Code scaffolding
 
 Run `ng generate component component-name --project iconify` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project iconify`.
-> Note: Don't forget to add `--project iconify` or else it will be added to the default project in your `angular.json` file. 
+
+> Note: Don't forget to add `--project iconify` or else it will be added to the default project in your `angular.json` file.
 
 ### Build
 

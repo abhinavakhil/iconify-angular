@@ -6,11 +6,11 @@ Angular implementation of [Iconify](https://github.com/iconify/iconify), strongl
 
 If you are using NPM:
 
-`npm install @visurel/iconify-angular`
+`npm install iconify-angular-2`
 
 If you are using Yarn:
 
-`yarn add @visurel/iconify-angular`
+`yarn add iconify-angular-2`
 
 This package does not include icons. Icons are split into separate packages that available at NPM. See [Iconify-React](https://github.com/iconify/iconify-react#icon-packages).
 
@@ -36,7 +36,7 @@ Register the icons in the your AppComponent constructor:
 
 ```typescript
 import { Component } from "@angular/core";
-import { IconService } from "@visurel/iconify-angular";
+import { IconService } from "iconify-angular-2";
 import { appIcons } from "./icons";
 
 @Component({

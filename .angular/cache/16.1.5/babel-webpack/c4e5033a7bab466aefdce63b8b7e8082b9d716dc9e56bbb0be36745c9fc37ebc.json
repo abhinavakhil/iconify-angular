@@ -1,0 +1,1 @@
+{"ast":null,"code":"import home from '@iconify/icons-mdi/home';\nimport groupAdd from '@iconify/icons-mdi/group-add';\nimport bellSlash from '@iconify/icons-fa-solid/bell-slash';\nexport const appIcons = {\n  home,\n  'group-add': groupAdd,\n  'bell-slash': bellSlash\n};","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
