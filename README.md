@@ -1,3 +1,9 @@
+# Warning 
+
+Do not confuse with [@visurel/iconify-angular](https://www.npmjs.com/package/@visurel/iconify-angular) This project is it's spiritual successor, and all credit goes to Visurel and his fellow contributors which will remain in this project's contributing list.
+
+The intention of this project is to maintain and evolve the solution due to the original owner not working actively on it anymore.
+
 # Iconify for Angular
 
 Angular implementation of [Iconify](https://github.com/iconify/iconify), strongly inspired from [Iconify-React](https://github.com/iconify/iconify-react#icon-packages).
@@ -6,11 +12,11 @@ Angular implementation of [Iconify](https://github.com/iconify/iconify), strongl
 
 If you are using NPM:
 
-`npm install iconify-angular-2`
+`npm install @abhinavakhil/iconify-angular`
 
 If you are using Yarn:
 
-`yarn add iconify-angular-2`
+`yarn add @abhinavakhil/iconify-angular`
 
 This package does not include icons. Icons are split into separate packages that available at NPM. See [Iconify-React](https://github.com/iconify/iconify-react#icon-packages).
 
@@ -36,7 +42,7 @@ Register the icons in the your AppComponent constructor:
 
 ```typescript
 import { Component } from "@angular/core";
-import { IconService } from "iconify-angular-2";
+import { IconService } from "@abhinavakhil/iconify-angular";
 import { appIcons } from "./icons";
 
 @Component({
